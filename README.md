@@ -10,5 +10,10 @@ This is a Python-based GUI application for managing and storing randomly generat
 - **Password Storage:** Store generated passwords with associated labels and descriptions for easy retrieval.
 - **Password Search:** Quickly search for stored passwords by label or description.
 
+## Installation
 
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Sangeeth722/Password_Manager_GUI_with_Tkinter.git
 
