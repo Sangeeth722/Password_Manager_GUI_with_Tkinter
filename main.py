@@ -47,7 +47,7 @@ def save():
                     #read old data
                     data = json.load(data_file)
 
-            except FileNotFoundError:
+            except :  #FileNotFoundError this not working
                 with open("data.json",mode="w") as data_file:
                     json.dump(json_file,data_file,indent=4)
             else:
@@ -115,7 +115,7 @@ website_entry.focus()
 email_entry = Entry(width=52)
 email_entry.grid(row=2, column=1, columnspan=2)
 email_entry.insert(0, "@gmail.com")
-password_entry = Entry(width=33)
+password_entry = Entry(width=33,show = "*")
 password_entry.grid(row=3, column=1)
 
 # Buttons
